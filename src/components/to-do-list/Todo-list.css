@@ -1,6 +1,5 @@
 body{
-    background-color: black;
-}
+    background-color: rgba(0, 0, 255, 0.711);}
 .note{
 display: flex;
     justify-content: center;
@@ -22,14 +21,11 @@ form{
     justify-content: space-between;
 }
 input{
-    padding: 14px 0;
+    padding: 14px 20px;
     width: 450px;
     border-radius: 5px;
     border: 2px solid rgba(0, 0, 255, 0.711);
     font-size: 25px;
-}
-input:focus{
-    border: 2px solid rgba(0, 0, 255, 0.711) !important;
 }
 form button{
     padding: 15px 30px;
@@ -49,10 +45,15 @@ form button{
     border-radius: 5px;
     border: 1px solid gray;
     margin-bottom: 20px;
+    white-space: wrap;
 }
 h3{
     color: black;
 
+}
+input::placeholder{
+    color: dodgerblue;
+    margin-left: 20px;
 }
 .box button{
     border: none;

@@ -51,7 +51,8 @@ function ToDoApp() {
         {data.length === 0 ? (
           <div className="type">
             <h2 className="smt">
-              Type <GoPencil /> Your notes will appear here
+              Type ...
+              <GoPencil /> <br /> Your notes will appear here
             </h2>
             <hr />
             <img src={typing} alt="" />
