@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+.note{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notepad{
+    padding: 25px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    margin-top: 100px;
+}
+.notes{
+    margin-top: 80px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding: 14px 0;
+    width: 450px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 255, 0.711);
+    font-size: 25px;
+}
+input:focus{
+    border: 2px solid rgba(0, 0, 255, 0.711) !important;
+}
+form button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.711);
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(94, 233, 233);
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+h3{
+    color: black;
+
+}
+.box button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+.type{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.smt{
+    text-align: center;
+}
+@media only screen and (max-width: 900px) {
+    .notepad {
+        width: 600px;
+    }
+    input{
+        width: 450px;
+    }
+}@media only screen and (max-width: 600px) {
+    .notepad {
+        width: 400px;
+    }
+         input {
+             width: 250px;
+         }
+}
+
+@media only screen and (max-width: 400px) {
+    .notepad {
+        width: 350px;
+    }
+         input {
+             width: 220px;
+         }
+}
